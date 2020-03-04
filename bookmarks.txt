@@ -1,3 +1,12 @@
 # This will be a list of web links to useful techie stuff.
 
 https://argonsys.com/microsoft-cloud/articles/configuring-ansible-manage-windows-servers-step-step/
+
+https://gist.github.com/andreicristianpetcu/b892338de279af9dac067891579cad7d
+
+https://fluentular.herokuapp.com/
+
+
+# another ansible tips to get rid of those ugly formatted output
+
+ansible 10.32.129.128 -i inventory/sit-fat.ini -m ping -vvvvv | sed 's/\\r\\n/\n/g' 
