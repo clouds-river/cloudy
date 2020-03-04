@@ -1,0 +1,3 @@
+# This will be a list of web links to useful techie stuff.
+
+https://argonsys.com/microsoft-cloud/articles/configuring-ansible-manage-windows-servers-step-step/
